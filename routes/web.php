@@ -19,3 +19,4 @@ Route::get('/', function () {
 */
 Route::get('/',[\App\Http\Controllers\HomeController::class,'index']);
 Route::get('/about',[\App\Http\Controllers\AboutController::class,'index']);
+Route::get('/news',[\App\Http\Controllers\NewsController::class,'index']);
